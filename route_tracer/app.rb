@@ -1,9 +1,15 @@
+require 'zipruby'
+require 'faraday'
+require 'csv'
+require 'date'
+require 'json'
+
 module RouteTracer
   class App
     BASE_HOST = 'http://challenge.distribusion.com'
     BASE_PATH = '/the_one'
     ROUTES_PATH = [BASE_PATH, '/routes'].join
-    SOURCES = %w(sentinels sniffers loopholes)
+    SOURCES = %i(sentinels sniffers loopholes)
 
     attr_reader :routes
 
@@ -15,7 +21,7 @@ module RouteTracer
     def fetch
       @routes = []
       source_extractors.keys.each do |source|
-        extract_routes(source, connection.get(ROUTES_PATH, { source: source }))
+        extract_routes(source, data_for_source(source))
       end
     end
 
@@ -32,11 +38,15 @@ module RouteTracer
     end
 
     def source_extractors
-      @source_extractors = {
-        'sentinels' => RouteTracer::Extractors::Sentinel,
-        'sniffers' => RouteTracer::Extractors::Sniffer,
-        'loopholes' => RouteTracer::Extractors::Loophole
+      @source_extractors ||= {
+        sentinels: RouteTracer::Extractors::Sentinel,
+        sniffers: RouteTracer::Extractors::Sniffer,
+        loopholes: RouteTracer::Extractors::Loophole
       }
+    end
+
+    def data_for_source(source)
+      connection.get(ROUTES_PATH, { source: source })
     end
 
     def connection

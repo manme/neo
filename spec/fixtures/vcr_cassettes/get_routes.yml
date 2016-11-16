@@ -1,0 +1,168 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://challenge.distribusion.com/the_one/routes?passphrase=Kans4s-i$-g01ng-by3-bye&source=sentinels
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 09:08:04 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '996'
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename*=UTF-8''sentinels
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        UEsDBAoAAAAAAHeGY0kAAAAAAAAAAAAAAAAKABAAc2VudGluZWxzL1VYDACF
+        bRxYEV0bWPUBFABQSwMEFAAIAAgASYtjSQAAAAAAAAAAAAAAABQAEABzZW50
+        aW5lbHMvcm91dGVzLmNzdlVYDABldRtYKWUbWPUBFACNzj0KAjEQhuHeU8i0
+        cWF+VHTPYS+RDBrY7IpEEE+vEzHIFpJm5iue4oXbdM96jAFWSxinoPbjGPRh
+        I8eksACy7YfrxdtAO4yCHXEndGDuEXskh/v3+PKT5qJppmlXNDvc/OizT6lw
+        nvNt4eJQPryAoEP+18K1hRtapLZwS8u6toiBp7alvABQSwcI7IdKU4cAAABq
+        AQAAUEsDBAoAAAAAAMdhZEkAAAAAAAAAAAAAAAAJABAAX19NQUNPU1gvVVgM
+        AIVtHFiFbRxY9QEUAFBLAwQKAAAAAADHYWRJAAAAAAAAAAAAAAAAEwAQAF9f
+        TUFDT1NYL3NlbnRpbmVscy9VWAwAhW0cWIVtHFj1ARQAUEsDBBQACAAIAEmL
+        Y0kAAAAAAAAAAAAAAAAfABAAX19NQUNPU1gvc2VudGluZWxzLy5fcm91dGVz
+        LmNzdlVYDABldRtYKWUbWPUBFABjYBVjZ2BiYPBNTFbwD1aIUIACkBgDJxAb
+        AfECIAbxLzEQBRxDQoKgTJCOFUCshaaEESGukpyfq5dYUJCTqpebWpKYkliS
+        aBWf7eviWZKaG1qcWhSSmF7MwJBUkJNZXGJgsIADagAjkknIgBMAUEsHCJbe
+        AqhtAAAA0gAAAFBLAQIVAwoAAAAAAHeGY0kAAAAAAAAAAAAAAAAKAAwAAAAA
+        AAAAAEDtQQAAAABzZW50aW5lbHMvVVgIAIVtHFgRXRtYUEsBAhUDFAAIAAgA
+        SYtjSeyHSlOHAAAAagEAABQADAAAAAAAAAAAQKSBOAAAAHNlbnRpbmVscy9y
+        b3V0ZXMuY3N2VVgIAGV1G1gpZRtYUEsBAhUDCgAAAAAAx2FkSQAAAAAAAAAA
+        AAAAAAkADAAAAAAAAAAAQP1BEQEAAF9fTUFDT1NYL1VYCACFbRxYhW0cWFBL
+        AQIVAwoAAAAAAMdhZEkAAAAAAAAAAAAAAAATAAwAAAAAAAAAAED9QUgBAABf
+        X01BQ09TWC9zZW50aW5lbHMvVVgIAIVtHFiFbRxYUEsBAhUDFAAIAAgASYtj
+        SZbeAqhtAAAA0gAAAB8ADAAAAAAAAAAAQKSBiQEAAF9fTUFDT1NYL3NlbnRp
+        bmVscy8uX3JvdXRlcy5jc3ZVWAgAZXUbWCllG1hQSwUGAAAAAAUABQB7AQAA
+        UwIAAAAA
+    http_version: 
+  recorded_at: Wed, 16 Nov 2016 09:08:03 GMT
+- request:
+    method: get
+    uri: http://challenge.distribusion.com/the_one/routes?passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 09:08:05 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '856'
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename*=UTF-8''sniffers
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        UEsDBAoAAAAAADeQY0kAAAAAAAAAAAAAAAAJABAAc25pZmZlcnMvVVgMAIdt
+        HFh6bRtY9QEUAFBLAwQUAAgACACTYWRJAAAAAAAAAAAAAAAAFwAQAHNuaWZm
+        ZXJzL25vZGVfdGltZXMuY3N2VVgMACZtHFglbRxY9QEUAFWMQQ7DMAgE731F
+        xTkHu+1/EA0oQrJxZOP/p1wq58TujBawxoKuVVAZticMp+4YNJoY/zPPTq7N
+        UA2rlqJD9mY84AE5fKH6ZYrkNOPklNJPvhZ0Dl3Me0GtykGL+9xf3oYXUEsH
+        CKq1ysBiAAAAtQAAAFBLAwQUAAgACAAPkGNJAAAAAAAAAAAAAAAAEwAQAHNu
+        aWZmZXJzL3JvdXRlcy5jc3ZVWAwAIHAbWC5tG1j1ARQAUyrKLy1Jjc9MUdJR
+        UCrJzE2F0fFV+XmpSlxKhiABIwNjA11DI11jwxBDYysDAysDM5BwaIjzoY0g
+        ngFQoRF2heYYCo2xKzRAVwgAUEsHCLCWqgdLAAAAmwAAAFBLAwQUAAgACACa
+        YWRJAAAAAAAAAAAAAAAAFgAQAHNuaWZmZXJzL3NlcXVlbmNlcy5jc3ZVWAwA
+        NG0cWDNtHFj1ARQAUyrKLy1Jjc9MUdJRUMrLT0mNL8nMBfO5lAxBYoYwhhGM
+        YQxkGIEYJjAGSMQYxLBU4gIAUEsHCAV/zV4zAAAAUQAAAFBLAQIVAwoAAAAA
+        ADeQY0kAAAAAAAAAAAAAAAAJAAwAAAAAAAAAAEDtQQAAAABzbmlmZmVycy9V
+        WAgAh20cWHptG1hQSwECFQMUAAgACACTYWRJqrXKwGIAAAC1AAAAFwAMAAAA
+        AAAAAABApIE3AAAAc25pZmZlcnMvbm9kZV90aW1lcy5jc3ZVWAgAJm0cWCVt
+        HFhQSwECFQMUAAgACAAPkGNJsJaqB0sAAACbAAAAEwAMAAAAAAAAAABApIHu
+        AAAAc25pZmZlcnMvcm91dGVzLmNzdlVYCAAgcBtYLm0bWFBLAQIVAxQACAAI
+        AJphZEkFf81eMwAAAFEAAAAWAAwAAAAAAAAAAECkgYoBAABzbmlmZmVycy9z
+        ZXF1ZW5jZXMuY3N2VVgIADRtHFgzbRxYUEsFBgAAAAAEAAQAMQEAABECAAAA
+        AA==
+    http_version: 
+  recorded_at: Wed, 16 Nov 2016 09:08:04 GMT
+- request:
+    method: get
+    uri: http://challenge.distribusion.com/the_one/routes?passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 09:08:05 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '723'
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename*=UTF-8''loopholes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        UEsDBAoAAAAAACqKY0kAAAAAAAAAAAAAAAAKABAAbG9vcGhvbGVzL1VYDACD
+        bRxYEGMbWPUBFABQSwMEFAAIAAgAQYtjSQAAAAAAAAAAAAAAABkAEABsb29w
+        aG9sZXMvbm9kZV9wYWlycy5qc29uVVgMAMhsHFgaZRtY9QEUAKvmUlBQystP
+        SY0vSMwsKlayUogGiigoVINJoFxmClBMyVBJByZQXJJYVBIP0gKSSE/MzU1E
+        SKbmpcClSjJSSxKVwDK1OtgMNcJlaBJII3lmGuMyE6ITq6E5iblJKTBTgWQs
+        Vy0XAFBLBwjG0b4KZgAAABgBAABQSwMEFAAIAAgAGY5jSQAAAAAAAAAAAAAA
+        ABUAEABsb29waG9sZXMvcm91dGVzLmpzb25VWAwAyWwcWHJqG1j1ARQAq+ZS
+        UFAqyi8tSS1WslKIBvIUFKrBJEw8PjMFKKNkqKQDE87LT0mNL0jMLMKUKi5J
+        LCqJL8nMTQVJGBkYG+gaGukaG4YYGlsZGFgZmEQh1KbmpeBRaRqlBFZYq0OW
+        m4yJd5Mp0W4yI8JNRrjdZDQI3URCOJkR7SZzItxkjNtNlsS7yYBoNxnA3AQk
+        Y7lquQBQSwcIgR/xeY8AAAD5AgAAUEsBAhUDCgAAAAAAKopjSQAAAAAAAAAA
+        AAAAAAoADAAAAAAAAAAAQO1BAAAAAGxvb3Bob2xlcy9VWAgAg20cWBBjG1hQ
+        SwECFQMUAAgACABBi2NJxtG+CmYAAAAYAQAAGQAMAAAAAAAAAABApIE4AAAA
+        bG9vcGhvbGVzL25vZGVfcGFpcnMuanNvblVYCADIbBxYGmUbWFBLAQIVAxQA
+        CAAIABmOY0mBH/F5jwAAAPkCAAAVAAwAAAAAAAAAAECkgfUAAABsb29waG9s
+        ZXMvcm91dGVzLmpzb25VWAgAyWwcWHJqG1hQSwUGAAAAAAMAAwDmAAAA1wEA
+        AAAA
+    http_version: 
+  recorded_at: Wed, 16 Nov 2016 09:08:05 GMT
+recorded_with: VCR 3.0.3
