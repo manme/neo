@@ -1,0 +1,510 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=beta&end_time=2030-12-31T13:00:02&passphrase=Kans4s-i$-g01ng-by3-bye&source=sentinels&start_node=alpha&start_time=2030-12-31T13:00:01
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:51 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=gamma&end_time=2030-12-31T13:00:03&passphrase=Kans4s-i$-g01ng-by3-bye&source=sentinels&start_node=beta&start_time=2030-12-31T13:00:02
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:51 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=beta&end_time=2030-12-31T13:00:03&passphrase=Kans4s-i$-g01ng-by3-bye&source=sentinels&start_node=delta&start_time=2030-12-31T13:00:02
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:52 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=gamma&end_time=2030-12-31T13:00:04&passphrase=Kans4s-i$-g01ng-by3-bye&source=sentinels&start_node=beta&start_time=2030-12-31T13:00:03
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:53 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:52 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=tau&end_time=2030-12-31T13:00:07&passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers&start_node=lambda&start_time=2030-12-31T13:00:06
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:53 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:53 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=psi&end_time=2030-12-31T13:00:07&passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers&start_node=tau&start_time=2030-12-31T13:00:06
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:53 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=omega&end_time=2030-12-31T13:00:07&passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers&start_node=psi&start_time=2030-12-31T13:00:06
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:54 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=psi&end_time=2030-12-31T13:00:08&passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers&start_node=lambda&start_time=2030-12-31T13:00:07
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:55 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:54 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=omega&end_time=2030-12-31T13:00:08&passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers&start_node=psi&start_time=2030-12-31T13:00:07
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:56 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:55 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=theta&end_time=2030-12-31T13:00:05&passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes&start_node=gamma&start_time=2030-12-31T13:00:04
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:56 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:56 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=lambda&end_time=2030-12-31T13:00:06&passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes&start_node=theta&start_time=2030-12-31T13:00:05
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:56 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=theta&end_time=2030-12-31T13:00:06&passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes&start_node=beta&start_time=2030-12-31T13:00:05
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:57 GMT
+- request:
+    method: post
+    uri: http://challenge.distribusion.com/the_one/routes?end_node=lambda&end_time=2030-12-31T13:00:07&passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes&start_node=theta&start_time=2030-12-31T13:00:06
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:29:58 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '171'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyIo4oCizIBf4oCizIEgKSI6IlRhcmdldGluZy4uLiBhbG1vc3QgdGhlcmUu
+        IExvY2shIEkgZ290IGhpbSEiLCIo4oyQ4pagX+KWoCkiOiJOb3csIFRhbmsg
+        bm93ISIsIi0tLS0tLS0tIjoiLS0tLS0tLS0iLCLjg70owrTigL/vvYAp44OO
+        IjoiV2VsY29tZSB0byB0aGUgcmVhbCB3b3JsZCwgTmVvLiJ9
+    http_version:
+  recorded_at: Wed, 16 Nov 2016 10:29:57 GMT
+recorded_with: VCR 3.0.3

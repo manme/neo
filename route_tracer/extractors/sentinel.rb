@@ -18,7 +18,7 @@ module RouteTracer
         rows.each_with_index do |start_row, index|
           next if (end_row = rows[index + 1]).nil?
 
-          route = Route.new(source,
+          route = RouteTracer::Route.new(source,
             start_row[:node],
             to_date_time(start_row[:time]),
             end_row[:node],

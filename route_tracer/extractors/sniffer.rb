@@ -19,7 +19,7 @@ module RouteTracer
         duration = row[:duration_in_milliseconds]
         end_time = start_time + Rational(duration, 86400000) # milliseconds in a day
 
-        Route.new(source,
+        RouteTracer::Route.new(source,
           row[:start_node],
           start_time,
           row[:end_node],

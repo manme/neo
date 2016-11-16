@@ -16,7 +16,7 @@ module RouteTracer
         node_pair = node_pairs[route_hash['node_pair_id']]
         return nil if node_pair.nil?
 
-        route = Route.new(source,
+        route = RouteTracer::Route.new(source,
           node_pair['start_node'],
           to_date_time(route_hash['start_time']),
           node_pair['end_node'],

@@ -1,6 +1,4 @@
-require 'env'
-
-Dir['./route_tracer/**/*.rb'].each do |app|
+Dir['./env.rb', './route_tracer/**/*.rb'].each do |app|
   require app
 end
 

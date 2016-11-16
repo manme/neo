@@ -21,7 +21,7 @@ module RouteTracer
     def fetch
       @routes = []
       source_extractors.keys.each do |source|
-        extract_routes(source, connection.get(ROUTES_PATH, { source: source }))
+        extract_routes(source, data_for_source(source))
       end
     end
 
@@ -43,6 +43,10 @@ module RouteTracer
         'sniffers' => RouteTracer::Extractors::Sniffer,
         'loopholes' => RouteTracer::Extractors::Loophole
       }
+    end
+
+    def data_for_source(source)
+      connection.get(ROUTES_PATH, { source: source })
     end
 
     def connection

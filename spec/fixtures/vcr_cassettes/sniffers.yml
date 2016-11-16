@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://challenge.distribusion.com/the_one/routes?passphrase=Kans4s-i$-g01ng-by3-bye&source=sniffers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.10.1
+      Date:
+      - Wed, 16 Nov 2016 10:05:08 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '856'
+      Connection:
+      - keep-alive
+      Content-Disposition:
+      - attachment; filename*=UTF-8''sniffers
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        UEsDBAoAAAAAADeQY0kAAAAAAAAAAAAAAAAJABAAc25pZmZlcnMvVVgMAIdt
+        HFh6bRtY9QEUAFBLAwQUAAgACACTYWRJAAAAAAAAAAAAAAAAFwAQAHNuaWZm
+        ZXJzL25vZGVfdGltZXMuY3N2VVgMACZtHFglbRxY9QEUAFWMQQ7DMAgE731F
+        xTkHu+1/EA0oQrJxZOP/p1wq58TujBawxoKuVVAZticMp+4YNJoY/zPPTq7N
+        UA2rlqJD9mY84AE5fKH6ZYrkNOPklNJPvhZ0Dl3Me0GtykGL+9xf3oYXUEsH
+        CKq1ysBiAAAAtQAAAFBLAwQUAAgACAAPkGNJAAAAAAAAAAAAAAAAEwAQAHNu
+        aWZmZXJzL3JvdXRlcy5jc3ZVWAwAIHAbWC5tG1j1ARQAUyrKLy1Jjc9MUdJR
+        UCrJzE2F0fFV+XmpSlxKhiABIwNjA11DI11jwxBDYysDAysDM5BwaIjzoY0g
+        ngFQoRF2heYYCo2xKzRAVwgAUEsHCLCWqgdLAAAAmwAAAFBLAwQUAAgACACa
+        YWRJAAAAAAAAAAAAAAAAFgAQAHNuaWZmZXJzL3NlcXVlbmNlcy5jc3ZVWAwA
+        NG0cWDNtHFj1ARQAUyrKLy1Jjc9MUdJRUMrLT0mNL8nMBfO5lAxBYoYwhhGM
+        YQxkGIEYJjAGSMQYxLBU4gIAUEsHCAV/zV4zAAAAUQAAAFBLAQIVAwoAAAAA
+        ADeQY0kAAAAAAAAAAAAAAAAJAAwAAAAAAAAAAEDtQQAAAABzbmlmZmVycy9V
+        WAgAh20cWHptG1hQSwECFQMUAAgACACTYWRJqrXKwGIAAAC1AAAAFwAMAAAA
+        AAAAAABApIE3AAAAc25pZmZlcnMvbm9kZV90aW1lcy5jc3ZVWAgAJm0cWCVt
+        HFhQSwECFQMUAAgACAAPkGNJsJaqB0sAAACbAAAAEwAMAAAAAAAAAABApIHu
+        AAAAc25pZmZlcnMvcm91dGVzLmNzdlVYCAAgcBtYLm0bWFBLAQIVAxQACAAI
+        AJphZEkFf81eMwAAAFEAAAAWAAwAAAAAAAAAAECkgYoBAABzbmlmZmVycy9z
+        ZXF1ZW5jZXMuY3N2VVgIADRtHFgzbRxYUEsFBgAAAAAEAAQAMQEAABECAAAA
+        AA==
+    http_version: 
+  recorded_at: Wed, 16 Nov 2016 10:05:08 GMT
+recorded_with: VCR 3.0.3
