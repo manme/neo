@@ -16,8 +16,18 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+require './env'
+require 'vcr'
+
 Dir['./route_tracer/**/*.rb'].each do |app|
   require app
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  config.hook_into :webmock
+  config.ignore_localhost = true
 end
 
 RSpec.configure do |config|

@@ -1,8 +1,10 @@
+require 'env'
+
 Dir['./route_tracer/**/*.rb'].each do |app|
   require app
 end
 
-app = RouteTracer::App.new(passphrase: 'Kans4s-i$-g01ng-by3-bye')
+app = RouteTracer::App.new(passphrase: ENV['PASSWORD'])
 
 app.fetch
 resp = app.send
