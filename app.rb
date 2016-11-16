@@ -1,9 +1,3 @@
-require 'zipruby'
-require 'faraday'
-require 'csv'
-require 'date'
-require 'json'
-
 Dir['./route_tracer/**/*.rb'].each do |app|
   require app
 end

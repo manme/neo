@@ -1,3 +1,9 @@
+require 'zipruby'
+require 'faraday'
+require 'csv'
+require 'date'
+require 'json'
+
 module RouteTracer
   class App
     BASE_HOST = 'http://challenge.distribusion.com'
