@@ -9,7 +9,7 @@ module RouteTracer
     BASE_HOST = 'http://challenge.distribusion.com'
     BASE_PATH = '/the_one'
     ROUTES_PATH = [BASE_PATH, '/routes'].join
-    SOURCES = %w(sentinels sniffers loopholes)
+    SOURCES = %i(sentinels sniffers loopholes)
 
     attr_reader :routes
 
@@ -38,10 +38,10 @@ module RouteTracer
     end
 
     def source_extractors
-      @source_extractors = {
-        'sentinels' => RouteTracer::Extractors::Sentinel,
-        'sniffers' => RouteTracer::Extractors::Sniffer,
-        'loopholes' => RouteTracer::Extractors::Loophole
+      @source_extractors ||= {
+        sentinels: RouteTracer::Extractors::Sentinel,
+        sniffers: RouteTracer::Extractors::Sniffer,
+        loopholes: RouteTracer::Extractors::Loophole
       }
     end
 
